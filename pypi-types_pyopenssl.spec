@@ -4,7 +4,7 @@
 #
 Name     : pypi-types_pyopenssl
 Version  : 23.0.0.0
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/d4/61/ffcd6306c701d2de02eb61b97ec5dec5b748956bd24152a35b40b2d82e3d/types-pyOpenSSL-23.0.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d4/61/ffcd6306c701d2de02eb61b97ec5dec5b748956bd24152a35b40b2d82e3d/types-pyOpenSSL-23.0.0.0.tar.gz
 Summary  : Typing stubs for pyOpenSSL
