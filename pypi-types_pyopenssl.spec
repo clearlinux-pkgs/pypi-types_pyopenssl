@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-types_pyopenssl
-Version  : 23.1.0.0
-Release  : 28
-URL      : https://files.pythonhosted.org/packages/c3/a8/55c71120366d776710428ecd37fcdb991b6cddb68b481610276ac012a7db/types-pyOpenSSL-23.1.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c3/a8/55c71120366d776710428ecd37fcdb991b6cddb68b481610276ac012a7db/types-pyOpenSSL-23.1.0.0.tar.gz
+Version  : 23.1.0.1
+Release  : 29
+URL      : https://files.pythonhosted.org/packages/71/e0/56fdd2ab3df382663469c278bdf4a126e2dad1ee3707ea2d6d6fd7723486/types-pyOpenSSL-23.1.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/71/e0/56fdd2ab3df382663469c278bdf4a126e2dad1ee3707ea2d6d6fd7723486/types-pyOpenSSL-23.1.0.1.tar.gz
 Summary  : Typing stubs for pyOpenSSL
 Group    : Development/Tools
 License  : Apache-2.0
@@ -43,10 +43,10 @@ python3 components for the pypi-types_pyopenssl package.
 
 
 %prep
-%setup -q -n types-pyOpenSSL-23.1.0.0
-cd %{_builddir}/types-pyOpenSSL-23.1.0.0
+%setup -q -n types-pyOpenSSL-23.1.0.1
+cd %{_builddir}/types-pyOpenSSL-23.1.0.1
 pushd ..
-cp -a types-pyOpenSSL-23.1.0.0 buildavx2
+cp -a types-pyOpenSSL-23.1.0.1 buildavx2
 popd
 
 %build
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679939547
+export SOURCE_DATE_EPOCH=1679957140
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
