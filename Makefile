@@ -1,5 +1,5 @@
 PKG_NAME := pypi-types_pyopenssl
-URL = https://files.pythonhosted.org/packages/ee/c4/4dcdd9569a4330e9d1cd77b39d97ab1ffc90f48fa4a3251c9e7d6e632352/types-pyOpenSSL-23.2.0.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ab/2f/c2832fc4242240120e5e07bf071ec624453089191b8f78b69740e5f35873/types-pyOpenSSL-23.2.0.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
