@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-types_pyopenssl
-Version  : 24.0.0.20240417
-Release  : 42
-URL      : https://files.pythonhosted.org/packages/d8/38/011e2a9916e7afca2cc9c14fff1df42285d697ee0dd9903e4292cd1f5bf6/types-pyOpenSSL-24.0.0.20240417.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d8/38/011e2a9916e7afca2cc9c14fff1df42285d697ee0dd9903e4292cd1f5bf6/types-pyOpenSSL-24.0.0.20240417.tar.gz
+Version  : 24.1.0.20240425
+Release  : 43
+URL      : https://files.pythonhosted.org/packages/ba/99/0ef33ca243dc4a9306ed7c976dd2d8563e3cf89371456d575f5b13f7dc68/types-pyOpenSSL-24.1.0.20240425.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ba/99/0ef33ca243dc4a9306ed7c976dd2d8563e3cf89371456d575f5b13f7dc68/types-pyOpenSSL-24.1.0.20240425.tar.gz
 Summary  : Typing stubs for pyOpenSSL
 Group    : Development/Tools
 License  : Apache-2.0
@@ -47,10 +47,10 @@ python3 components for the pypi-types_pyopenssl package.
 
 
 %prep
-%setup -q -n types-pyOpenSSL-24.0.0.20240417
-cd %{_builddir}/types-pyOpenSSL-24.0.0.20240417
+%setup -q -n types-pyOpenSSL-24.1.0.20240425
+cd %{_builddir}/types-pyOpenSSL-24.1.0.20240425
 pushd ..
-cp -a types-pyOpenSSL-24.0.0.20240417 buildavx2
+cp -a types-pyOpenSSL-24.1.0.20240425 buildavx2
 popd
 
 %build
@@ -58,7 +58,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713458193
+export SOURCE_DATE_EPOCH=1714061260
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
